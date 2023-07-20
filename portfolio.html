@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio site</title>
     <link rel="stylesheet" href="portfolio.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.389/build/spline-viewer.js"></script>
 </head>
 
 <body>
@@ -44,15 +45,50 @@
     <main>
         <section class="first" id="About">
             <div class="left">
-                Hi,I am Manya Bansal B.tech first year student from KIET Group Of Institutions.I live in hathras UP .I am a Web Enthusiast.
-
+                <p class="main-intro">Hi,I am Manya Bansal a Frontend Web developer,</p>
+                <br>
+                <p class="main-details>">Meet Manya Bansla a versatile B.Tech student 
+                    skilled in frontend web development with expertise in HTML, CSS
+                    , and JavaScript. brings creative digital solutions to life,
+                     crafting user-friendly websites with an eye for design.
+                      Proficient in SolidWorks, I excels in creating intricate 
+                      3D models that merge imagination with engineering precision.
+                       Additionally, my proficiency in MS Excel allows for streamlined
+                        data analysis and informed decision-making. Driven by a quest for 
+                        continuous growth, I embodies a multidisciplinary skill set, 
+                        making me an invaluable asset to any team or project.</p>
+                        <br>
+                        <button class="button"> Resume
+                        </button>
             </div>
             <div class="right">
                 <img src="Images/profile.jpeg">
             </div>
 
+            
         </section>
-        <section class="second" id="Projects">
+        <p class="project-heading">Projects</p>
+        <div class="cards-container">
+
+        <div class="card">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+            <div class="card__content">
+              <p class="card__title">Razer Website
+              </p><p class="card__description"><img class="images-project" src="Images/razer.png" alt=""></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+            <div class="card__content">
+              <p class="card__title">Fashion Website
+              </p><p class="card__description"><img class="images-project" src="Images/pfs.png" alt=""></p>
+            </div>
+          </div>
+  
+        </div>
+
+          <section class="second" id="Projects">
             To have a look on my projects<br>visit
             <a href="https://github.com/manyabansal406">Github</a>
         </section>
@@ -61,6 +97,43 @@
             <a href="https://www.linkedin.com/in/manya-bansal-306527243">linkedin</a>
             <a href="https://www.instagram.com/invites/contact/?i=k0gomh9vrb1v&utm_content=molwt4h">Instagram</a>
         </section>
+          
+
+        <!-- footer start -->
+
+        <footer class="footer">
+            <div class="column-1">
+             <h4>LINKS</h4>
+             <a href="#">About Us</a>
+             <a href="#">Services</a>
+             <a href="#">Contact Us</a>
+             <a href="#">Privacy Policies</a>
+             <a href="#">Sponsors</a>
+             <a href="#">Merchandise</a>
+            </div>
+         
+            <div class="column-2">
+             <h4>NEWSLETTER</h4>
+             <form action="">
+                 <input type="email" placeholder="Enter Your Email..." required>
+                 <br>
+                 <button type="submit">SUBSCRIBE NOW</button>
+             </form>
+            </div>
+            <div class="column-3">
+             <h4>CONTACTS</h4>
+             <p>23231,DDF ROAD,KIET COLLEGE <br>GHAZIABAD,UTTAR PRADESH.</p>
+         
+             <div class="social-icons">
+                 <i class="fa-brands fa-facebook"></i>
+                 <i class="fa-brands fa-twitter"></i>
+                 <i class="fa-brands fa-instagram"></i>
+                 <i class="fa-brands fa-linkedin"></i>
+             </div>
+            </div>
+         </footer>
+
+         <!-- footer ends  -->
 </body>
 
 </html>
